@@ -1,0 +1,52 @@
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+    resize: none;
+}
+.navbar {
+    background-color: #8D745E;
+}
+
+
+/* tela inicial  */
+.content-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.rectangular-shape {
+
+    background-color: #A57A53;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+#btnlogin {
+    background-color: transparent;
+    border-color: white;
+    color: white;
+}
+
+#btnComece {
+    background-color: #A57A53;
+    color: white;
+    margin-top: 10px;
+    padding-right: 60px;
+    padding-left: 60px;
+}
+
+#btnDemo {
+    background-color: transparent;
+    border-color: white;
+    color: white;
+    margin-top: 10px;
+}
+/**/
+
+
