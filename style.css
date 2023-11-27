@@ -68,7 +68,6 @@ body {
     font-weight: bold;
 }
 
-/**/
 
 
 
@@ -121,4 +120,22 @@ input[type=text],
     border-radius: 15px;
     background-color: white;
 
+}
+
+
+/*login - CADASTRAR */
+.corner-image {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 100px;
+}
+
+#titulo {
+    padding-top: 90px;
+    padding-left: 50px;
+}
+
+#subtitulo {
+    color: blue;
 }
