@@ -99,3 +99,16 @@ input[type=password]::placeholder {
 label {
     font-size: 20px;
 }
+
+
+/* login -recuperar Senha*/
+.center-image {
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    padding-bottom: 10px;
+    width: 100px;
+}
+
