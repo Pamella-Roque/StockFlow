@@ -50,3 +50,52 @@ body {
 /**/
 
 
+/* login - LOGIN */
+
+.bg-image {
+    background-image: url('/assets/login.jpeg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 20vw;
+    max-width: 50vw;
+}
+
+.esqueceuSenha {
+    text-decoration: none;
+    color: inherit;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/**/
+
+
+
+/*Geral*/
+
+input[type=email],
+input[type=password] {
+    font-size: 25px;
+    width: 100%;
+    padding: 10px 5px 5px 20px;
+    background-color: #CFCFCF;
+    border: none;
+    border-radius: 12px;
+
+}
+
+input[type=email]:focus,
+input[type=password]:focus {
+    background-color: #CFCFCF;
+}
+
+input[type=email]::placeholder,
+input[type=password]::placeholder {
+    color: white;
+
+}
+
+label {
+    font-size: 20px;
+}
