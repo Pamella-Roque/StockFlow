@@ -179,3 +179,37 @@ input[type=text],
     right: 20px;
 
 }
+
+/*Comprador - Finalizar Pedido*/
+
+.card-container {
+    padding-top: 30px;
+    height: 100%;
+}
+
+.card {
+    height: 100%;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.btnFinalizarProduto {
+    text-align: right;
+    padding-top: 20px;
+}
+
+summary {
+    font-weight: bold;
+    font-size: 35px;
+}
+
+
+
+/*Comprador - VerItens*/
+#aumDim {
+    background-color: #E9E9E9;
+}
