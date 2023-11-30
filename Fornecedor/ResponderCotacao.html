@@ -11,7 +11,9 @@
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar fixed-top">
-        <div class="container-fluid justify-content-end">
+        <div class="container-fluid justify-content-between">
+            <button class="btn" onclick="location.href='../Menu.html'"><img src="/assets/Icons/Voltar.jpg" alt="Voltar">
+            </button>
             <img src="/assets/stockflowimg.jpg" alt="logo" width="120">
         </div>
     </nav>
@@ -25,7 +27,7 @@
             <div class="card-body p-4">
                 <div class="text-left">
                     <h3 class="mb-4" id="subtitulo">Lista de itens</h3>
-                    <button class="btn btn-dark" type="button">Adicionar Item</button>
+                    <button class="btn btn-dark" onclick="location.href='/Fornecedor/Rastreio.html'" type="button">Rastrear Item</button>
                 </div>
 
                 <div class="table-responsive">
@@ -72,7 +74,7 @@
                     </div>
                     <div class="col-md-10">
                         <textarea id="mensagem" name="mensagem" class="form-control"></textarea>
-                        <button class="btn btn-dark mt-3 corner-btn">Finalizar Cotação</button>
+                        <button class="btn btn-dark mt-3 corner-btn" onclick="location.href='/Fornecedor/VerCotacoes.html'"  >Finalizar Cotação</button>
                     </div>
                 </div>
             </div>
