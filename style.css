@@ -213,3 +213,93 @@ summary {
 #aumDim {
     background-color: #E9E9E9;
 }
+
+
+/*Fornecedor - Responder cotacao*/
+#mensagem {
+    width: 100%;
+    height: 200px;
+    resize: both;
+    overflow: auto;
+    border-radius: 10px;
+    background: #EAEAEA;
+    border-color: #565656;
+
+}
+
+/* Fornecedor - Rastreio*/
+#numPedido {
+    background-color: #E7EAF4;
+    border-color: #E4E1E1;
+}
+
+/* Fornecedor - Rastreio2 */
+.center-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.progress-container {
+    width: 50%;
+    max-width: 800px;
+    background-color: #765C56;
+    height: 40px;
+    position: relative;
+}
+
+.progress-container {
+    width: 50%;
+    margin: 50px auto;
+    position: relative;
+}
+
+.progress-bar {
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.progress-step {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    height: 100%;
+    width: calc(33.33% - 1px);
+    /* Divide em 3 partes com um pixel de separação */
+    z-index: 2;
+}
+
+.progress-step img {
+    width: 70px;
+    height: 70px;
+}
+
+.step1 {
+    left: 12%;
+}
+
+.step2 {
+    left: 49%;
+}
+
+.step3 {
+    left: 86%;
+}
+
+.table-no-borders,
+.table-no-borders th,
+.table-no-borders td {
+    border: none;
+}
+
+table,
+th,
+td {
+    font-weight: lighter;
+}
+
