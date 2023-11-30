@@ -11,19 +11,21 @@
 
 <body>
     <nav class="navbar navbar-expand-lg navbar fixed-top">
-        <div class="container-fluid justify-content-end">
+        <div class="container-fluid justify-content-between">
+            <button class="btn" onclick="location.href='../Menu.html'"><img src="/assets/Icons/Voltar.jpg" alt="Voltar">
+            </button>
             <img src="/assets/stockflowimg.jpg" alt="logo" width="120">
         </div>
     </nav>
 
     <div style="display: flex; justify-content: space-between; padding-top: 90px;">
         <h1 style="padding-left: 30px;">Ver Estoque</h1>
-        <button class="btn btn-lg"><img src="/assets/Icons/carrinho.jpg" alt="logo" width="60" style="border-radius: 10px;"></button>
+        <button class="btn btn-lg" onclick="location.href='/Almoxarife/VerPedidos.html'"><img src="/assets/Icons/carrinho.jpg" alt="logo" width="60" style="border-radius: 10px;"></button>
     </div>
     <hr>
     <div style="display: flex; justify-content: space-between; padding-top: 30px; ">
         <h1 style="padding-left: 80px;">Filtros</h1>
-        <button class="btn btn-dark btn-lg" style="margin-right: 30px;">Criar Promoção</button>
+        <button class="btn btn-dark btn-lg" style="margin-right: 30px;" onclick="location.href='/Almoxarife/CadastroProdutos.html'">Cadastrar Produto</button>
     </div>
 
     <div class="container">
